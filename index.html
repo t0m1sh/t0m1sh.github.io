@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/animation.css">
+</head>
+<body>
+    <div class="animation_children" id="animation_children"></div>
+    
+    <div class="content_wrapper">
+        <div class="content">
+            <form class="form" id="form">
+                <div class="form_group">
+                    <input type="text" class="form_input" id="taskInput" placeholder="Добавить дело:">
+                </div>
+                <button type="submit" class="form_button">+</button>
+            </form>
+            <p class="p_content">Список дел:</p>
+            <ul class="ul_content" id="tasksList">
+                <li class="liclass taskZero" id="emptyList">Список дел пуст!</li>
+                <!-- <li class="liclass">
+                    <div class="taskCollection">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae enim saepe facere alias est, ipsa eveniet sint deleniti quae repellat.
+                    </div>
+                    <button type="button" data-action="done" class="btn_add">✔</button>
+                    <button type="button" data-action="delete" class="btn_delete">X</button>
+                </li> -->
+            </ul>
+        </div>
+    </div> 
+    <script src="/js/script.js"></script>
+    <script src="/js/animation.js"></script>
+    
+</body>
+</html>
