@@ -1,0 +1,160 @@
+
+html, body {
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #202020;
+    overflow: hidden;
+}
+
+.none {
+    display: none !important;
+}
+
+.content_wrapper {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+.content {
+    background-color: #3d3d3d;
+    width: 40%;
+    border-radius: 5px;
+    padding: 30px 60px;
+    height: 500px;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 100;
+    top: -1375px;
+}
+
+.p_content {
+    font-size: 30px;
+    text-align: center;
+}
+
+.ul_content {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.liclass {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 13px 0;
+    margin: 20px 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 35px;
+}
+
+.form_input {
+    min-width: 80%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    height: 29px;
+    border-radius: 10px;
+    color: #000;
+    font-size: 20px;
+}
+
+.form_button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 95px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.form_button:hover{
+    font-size: 20px;
+    background-color: #a6ff9b;
+    box-shadow: 1px 1px 20px 1px #a6ff9b;
+    border-radius: 10px;
+}
+
+.taskCollection {
+    max-width: 80%;
+    min-height: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.task_done {
+    text-decoration: line-through;
+    opacity: 0.2;
+}
+
+.taskZero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 40px;
+    color: #a6ff9b;
+    margin-top: 140px;
+}
+
+.btn_add {
+    position: absolute;
+    right: 50px;
+    justify-content: center;
+    margin: 5px;
+    background-color: #a6ff9b;
+    width: 35px;
+    height: 35px;
+    border: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.btn_add:hover {
+    box-shadow: 1px 1px 20px 1px #a6ff9b;
+}
+
+.btn_delete {
+    position: absolute;
+    right: 0px;
+    justify-content: center;
+    margin: 5px;
+    background-color: #ff4f4f;
+    width: 35px;
+    height: 35px;
+    border: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.btn_delete:hover {
+    box-shadow: 1px 1px 20px 1px #ff4f4f;
+}
+
+.animation_children {
+    position: relative;
+    z-index: 1;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
