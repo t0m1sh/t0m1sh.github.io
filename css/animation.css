@@ -2,7 +2,7 @@
 
 .object {
     z-index: 1;
-    position: relative;
+    position: absolute;
     border-radius: 20px;
     animation: anim infinite;
     height: 20px;
