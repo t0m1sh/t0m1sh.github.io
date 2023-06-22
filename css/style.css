@@ -6,6 +6,7 @@ html, body {
     color: #fff;
     background-color: #202020;
     overflow: hidden;
+    font-family: 'Inconsolata', monospace;;
 }
 
 .none {
@@ -68,10 +69,10 @@ ul li {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #fff;
+    background-color: #202427;
     height: 29px;
     border-radius: 10px;
-    color: #000;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -82,14 +83,16 @@ ul li {
     width: 95px;
     height: 35px;
     font-size: 20px;
-    background-color: #fff;
+    color: #fff;
+    background-color: #202427;
+    border:none;
     border-radius: 10%;
 }
 
 .form_button:hover{
     font-size: 20px;
-    background-color: #a6ff9b;
-    box-shadow: 1px 1px 20px 1px #a6ff9b;
+    background-color: #39bd28;
+    box-shadow: 1px 1px 20px 1px #39bd28;
     border-radius: 10px;
 }
 
@@ -98,6 +101,7 @@ ul li {
     min-height: 48px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .task_done {
@@ -111,7 +115,7 @@ ul li {
     align-items: center;
     position: relative;
     font-size: 40px;
-    color: #a6ff9b;
+    color: #39bd28;
     margin-top: 140px;
 }
 
@@ -120,8 +124,9 @@ ul li {
     right: 50px;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 5px;
-    background-color: #a6ff9b;
+    background-color: #39bd28;
     width: 35px;
     height: 35px;
     border: none;
@@ -130,7 +135,7 @@ ul li {
 }
 
 .btn_add:hover {
-    box-shadow: 1px 1px 20px 1px #a6ff9b;
+    box-shadow: 1px 1px 20px 1px #39bd28;
 }
 
 .btn_delete {
@@ -138,8 +143,9 @@ ul li {
     right: 0px;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 5px;
-    background-color: #ff4f4f;
+    background-color: #c73535;
     width: 35px;
     height: 35px;
     border: none;
@@ -148,7 +154,7 @@ ul li {
 }
 
 .btn_delete:hover {
-    box-shadow: 1px 1px 20px 1px #ff4f4f;
+    box-shadow: 1px 1px 20px 1px #c73535;
 }
 
 .animation_children {
@@ -178,7 +184,9 @@ ul li {
         width: 30px;
         height: 30px
     }
-    
+    .taskZero {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 740px) {
@@ -233,13 +241,16 @@ ul li {
     .btn_delete {
         width: 15px;
         height: 15px;
-        font-size: 8px;
+        font-size: 5px;
     }
     .btn_add {
         width: 15px;
         height: 15px;
         right: 20px;
-        font-size: 8px;
+        font-size: 5px;
+    }
+    .taskZero {
+        font-size: 19px;
     }
 }
 
